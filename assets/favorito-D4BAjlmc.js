@@ -1,0 +1,1 @@
+import{j as t,r as a}from"./index-BuAUB8X9.js";const v=t("favorito",()=>{const e=a([]);return{favoritos:e,add:o=>{e.value.some(r=>r.Numero===o.Numero)||e.value.push(o)},remove:o=>{e.value=e.value.filter(r=>r.Numero!==o)},findnorma:o=>e.value.some(r=>r.Numero===o)}});export{v as u};
